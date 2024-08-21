@@ -5,3 +5,6 @@ const getName = (name, title) => {
 const getCity = () => {
   return "City";
 };
+const getAddress = () => {
+  return "Address";
+};
