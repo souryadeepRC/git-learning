@@ -1,4 +1,4 @@
-const getName = (name) => {
+const getName = (name, title) => {
   if (!name) return "";
-  return `Hello ${name}. Welcome`;
+  return `Hello ${name} ${title}. Welcome`;
 };
