@@ -1,3 +1,4 @@
 const getName = (name) => {
-  return `Hello ${name}`;
+  if (!name) return "";
+  return `Hello ${name}. Welcome`;
 };
